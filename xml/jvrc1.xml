@@ -429,12 +429,12 @@
 	<motor name='R_ELBOW_Y_motor'      joint='R_ELBOW_Y' />
 	<motor name='R_WRIST_R_motor'      joint='R_WRIST_R' />
 	<motor name='R_WRIST_Y_motor'      joint='R_WRIST_Y' />
-	<motor name='R_UTHUMB_motor' joint='R_UTHUMB' />
-	<motor name='R_LTHUMB_motor' joint='R_LTHUMB' />
-	<motor name='R_UINDEX_motor' joint='R_UINDEX' />
-	<motor name='R_LINDEX_motor' joint='R_LINDEX' />
-	<motor name='R_ULITTLE_motor' joint='R_ULITTLE' />
-	<motor name='R_LLITTLE_motor' joint='R_LLITTLE' />
+	<motor name='R_UTHUMB_motor'       joint='R_UTHUMB' />
+	<motor name='R_LTHUMB_motor'       joint='R_LTHUMB' />
+	<motor name='R_UINDEX_motor'       joint='R_UINDEX' />
+	<motor name='R_LINDEX_motor'       joint='R_LINDEX' />
+	<motor name='R_ULITTLE_motor'      joint='R_ULITTLE' />
+	<motor name='R_LLITTLE_motor'      joint='R_LLITTLE' />
 	<!-- left arm -->
 	<motor name='L_SHOULDER_P_motor'   joint='L_SHOULDER_P' />
 	<motor name='L_SHOULDER_R_motor'   joint='L_SHOULDER_R' />
@@ -443,12 +443,12 @@
 	<motor name='L_ELBOW_Y_motor'      joint='L_ELBOW_Y' />
 	<motor name='L_WRIST_R_motor'      joint='L_WRIST_R' />
 	<motor name='L_WRIST_Y_motor'      joint='L_WRIST_Y' />
-	<motor name='L_UTHUMB_motor' joint='L_UTHUMB' />
-	<motor name='L_LTHUMB_motor' joint='L_LTHUMB' />
-	<motor name='L_UINDEX_motor' joint='L_UINDEX' />
-	<motor name='L_LINDEX_motor' joint='L_LINDEX' />
-	<motor name='L_ULITTLE_motor' joint='L_ULITTLE' />
-	<motor name='L_LLITTLE_motor' joint='L_LLITTLE' />
+	<motor name='L_UTHUMB_motor'       joint='L_UTHUMB' />
+	<motor name='L_LTHUMB_motor'       joint='L_LTHUMB' />
+	<motor name='L_UINDEX_motor'       joint='L_UINDEX' />
+	<motor name='L_LINDEX_motor'       joint='L_LINDEX' />
+	<motor name='L_ULITTLE_motor'      joint='L_ULITTLE' />
+	<motor name='L_LLITTLE_motor'      joint='L_LLITTLE' />
     </actuator>
 
     <sensor>
