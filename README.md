@@ -2,7 +2,7 @@
 
 JVRC1 model files for MuJoCo
 
-The package will install the files in this directory so that mc_mujoco automatically picks them up when running with the `HRP5P` robot module.
+The package will install the files in this directory so that [mc_mujoco](https://github.com/rohanpsingh/mc_mujoco) can pick them up automatically.
 
 Install
 -------
