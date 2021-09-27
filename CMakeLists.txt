@@ -2,7 +2,9 @@ cmake_minimum_required(VERSION 3.1)
 
 project(jvrc1_mj_description VERSION 1.0.0)
 
-find_package(mc_mujoco REQUIRED)
+if(NOT TARGET mc_mujoco)
+  find_package(mc_mujoco REQUIRED)
+endif()
 
 option(SRC_MODE "Use files in the repository instead of installed files" OFF)
 
