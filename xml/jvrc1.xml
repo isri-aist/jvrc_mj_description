@@ -1,6 +1,6 @@
 <mujoco model="jvrc1">
     <compiler angle="radian" meshdir="../meshes" />
-    <size njmax="500" nconmax="100" nuserdata="1000" nuser_actuator="33"/>
+    <size njmax="500" nconmax="100" />
 
     <option timestep="0.001" iterations="50" tolerance="1e-10" solver="PGS" jacobian="dense" cone="pyramidal" />
 
@@ -96,11 +96,7 @@
         <mesh name="L_ULITTLE_S_vis" file="visual/L_ULITTLE_S.stl" />
         <mesh name="L_LLITTLE_S_vis" file="visual/L_LLITTLE_S.stl" />
 
-        <texture name="texplane" type="2d" builtin="checker" rgb1=".2 .3 .4" rgb2=".1 0.15 0.2"
-		 width="512" height="512" mark="cross" markrgb=".8 .8 .8"/>  
-        <texture name="texgeom" type="cube" builtin="flat" mark="cross" width="127" height="1278" 
-		 rgb1="0.8 0.6 0.4" rgb2="0.8 0.6 0.4" markrgb="1 1 1" random="0.01"/>  
-        <material name="matplane" reflectance="0.3" texture="texplane" texrepeat="1 1" texuniform="true"/>
+        <texture name="texgeom" type="cube" builtin="flat" mark="cross" width="127" height="1278" rgb1="0.8 0.6 0.4" rgb2="0.8 0.6 0.4" markrgb="1 1 1" random="0.01"/>
         <material name="matgeom" texture="texgeom" texuniform="true" rgba="0.8 0.6 .4 1"/>
     </asset>
 
@@ -123,7 +119,6 @@
     </contact>
 
     <worldbody>
-        <geom name="floor" pos="0 0 0" size="0 0 .25" type="plane" material="matplane" condim="3"/>
         <light directional="false" diffuse="0.2 0.2 0.2" specular="0 0 0" pos="0 0 2" dir="0 0 -1" castshadow="false"/>
         <light mode="targetbodycom" target="PELVIS_S" directional="false" diffuse=".8 .8 .8" specular="0.3 0.3 0.3" pos="0 0 4.0" dir="0 0 -1"/>       
 
@@ -458,21 +453,21 @@
 
 	<!-- F/T sensors -->
 	<!-- right foot -->
-	<force         name="rf_fsensor"    site="rf_force" />
-	<torque        name="rf_tsensor"    site="rf_force" />
+	<force         name="RightFootForceSensor_fsensor"    site="rf_force" />
+	<torque        name="RightFootForceSensor_tsensor"    site="rf_force" />
 	<!-- left foot -->
-	<force         name="lf_fsensor"    site="lf_force" />
-	<torque        name="lf_tsensor"    site="lf_force" />
+	<force         name="LeftFootForceSensor_fsensor"    site="lf_force" />
+	<torque        name="LeftFootForceSensor_tsensor"    site="lf_force" />
 	<!-- right hand -->
-	<force         name="rh_fsensor"    site="rh_force" />
-	<torque        name="rh_tsensor"    site="rh_force" />
+	<force         name="RightHandForceSensor_fsensor"    site="rh_force" />
+	<torque        name="RightHandForceSensor_tsensor"    site="rh_force" />
 	<!-- left hand -->
-	<force         name="lh_fsensor"    site="lh_force" />
-	<torque        name="lh_tsensor"    site="lh_force" />
+	<force         name="LeftHandForceSensor_fsensor"    site="lh_force" />
+	<torque        name="LeftHandForceSensor_tsensor"    site="lh_force" />
 
 	<!-- imu -->
-	<gyro          name="root_gyro"     site="imu" />
-	<accelerometer name="root_accel"    site="imu" />
+	<gyro          name="Accelerometer_gyro"     site="imu" />
+	<accelerometer name="Accelerometer_accelerometer"    site="imu" />
     </sensor>
 
 </mujoco>
