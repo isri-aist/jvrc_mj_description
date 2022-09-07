@@ -385,19 +385,19 @@
     </worldbody>
     <actuator>
         <!-- right leg -->
-        <motor name="RHIP_P_motor" joint="R_HIP_P" />
-        <motor name="RHIP_R_motor" joint="R_HIP_R" />
-        <motor name="RHIP_Y_motor" joint="R_HIP_Y" />
-        <motor name="RKNEE_motor" joint="R_KNEE" />
-        <motor name="RANKLE_R_motor" joint="R_ANKLE_R" />
-        <motor name="RANKLE_P_motor" joint="R_ANKLE_P" />
+        <motor name="R_HIP_P_motor" joint="R_HIP_P" />
+        <motor name="R_HIP_R_motor" joint="R_HIP_R" />
+        <motor name="R_HIP_Y_motor" joint="R_HIP_Y" />
+        <motor name="R_KNEE_motor" joint="R_KNEE" />
+        <motor name="R_ANKLE_R_motor" joint="R_ANKLE_R" />
+        <motor name="R_ANKLE_P_motor" joint="R_ANKLE_P" />
         <!-- left leg -->
-        <motor name="LHIP_P_motor" joint="L_HIP_P" />
-        <motor name="LHIP_R_motor" joint="L_HIP_R" />
-        <motor name="LHIP_Y_motor" joint="L_HIP_Y" />
-        <motor name="LKNEE_motor" joint="L_KNEE" />
-        <motor name="LANKLE_R_motor" joint="L_ANKLE_R" />
-        <motor name="LANKLE_P_motor" joint="L_ANKLE_P" />
+        <motor name="L_HIP_P_motor" joint="L_HIP_P" />
+        <motor name="L_HIP_R_motor" joint="L_HIP_R" />
+        <motor name="L_HIP_Y_motor" joint="L_HIP_Y" />
+        <motor name="L_KNEE_motor" joint="L_KNEE" />
+        <motor name="L_ANKLE_R_motor" joint="L_ANKLE_R" />
+        <motor name="L_ANKLE_P_motor" joint="L_ANKLE_P" />
         <!-- waist -->
         <motor name="WAIST_Y_motor" joint="WAIST_Y" />
         <motor name="WAIST_P_motor" joint="WAIST_P" />
