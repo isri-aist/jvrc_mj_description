@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <mujoco model="jvrc1">
-    <compiler angle="radian" assetdir="../meshes" />
+    <compiler angle="radian" meshdir="../meshes" texturedir="../meshes" />
     <size njmax="500" nconmax="100" />
     <option timestep="0.001" iterations="50" tolerance="1e-10" solver="PGS" jacobian="dense" cone="pyramidal" />
     <default>
         <joint limited="true" damping="0.2" pos="0 0 0" />
         <motor ctrllimited="false" forcelimited="false" />
         <default class="collision">
-            <geom condim="3" material="matgeom" type="mesh" group="0" />
+            <geom condim="3" type="mesh" group="0" />
         </default>
         <default class="visual">
-            <geom condim="3" material="matgeom" type="mesh" group="1" conaffinity="0" contype="0" />
+            <geom condim="3" type="mesh" group="1" conaffinity="0" contype="0" />
         </default>
     </default>
     <visual>
@@ -136,9 +136,6 @@
 	<material name="KNEE1" texture="Map30" shininess="1" specular="1" />
 	<material name="KNEE2" texture="Map31" shininess="1" specular="1" />
         <material name="ANKLE" texture="Map32" shininess="1" specular="1" />
-
-        <texture name="texgeom" type="cube" builtin="flat" mark="cross" width="127" height="1278" rgb1="0.8 0.6 0.4" rgb2="0.8 0.6 0.4" markrgb="1 1 1" random="0.01" />
-        <material name="matgeom" texture="texgeom" texuniform="true" rgba="0.8 0.6 .4 1" />
     </asset>
     <contact>
         <exclude body1="PELVIS_S" body2="R_HIP_R_S" />
