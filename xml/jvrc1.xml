@@ -58,7 +58,7 @@
         <mesh name="L_ULITTLE_S_mesh" file="convex/L_ULITTLE_S.stl" />
         <mesh name="L_LLITTLE_S_mesh" file="convex/L_LLITTLE_S.stl" />
         <!-- visualization meshes -->
-	<!-- NECK_P, WAIST_R, KNEE  were manually split in 2 -->
+        <!-- NECK_P, WAIST_R, KNEE  were manually split in 2 -->
         <mesh name="PELVIS_S_vis" file="visual/PELVIS_S.obj" />
         <mesh name="R_HIP_R_S_vis" file="visual/R_HIP_R_S.obj" />
         <mesh name="R_HIP_Y_S_vis" file="visual/R_HIP_Y_S.obj" />
@@ -99,43 +99,43 @@
         <mesh name="L_ULITTLE_S_vis" file="visual/L_ULITTLE_S.obj" />
         <mesh name="L_LLITTLE_S_vis" file="visual/L_LLITTLE_S.obj" />
 
-	<!-- texture png -->
-	<texture name="Map01"   file="texture/Map01_siri.png" type="2d" />
-	<texture name="Map03_F" file="texture/Map03_douF.png" type="2d" />
-	<texture name="Map03_R" file="texture/Map03_douR.png" type="2d" />
-	<texture name="Map05_F" file="texture/Map05_atamaF.png" type="2d" />
-	<texture name="Map05_R" file="texture/Map05_atamaR.png" type="2d" />
-	<texture name="Map06"   file="texture/Map06_migikata.png" type="2d" />
-	<texture name="Map07"   file="texture/Map07_migijowan.png" type="2d" />
-	<texture name="Map08"   file="texture/Map08_migikawan.png" type="2d" />
-	<texture name="Map09"   file="texture/Map09_migitekubi.png" type="2d" />
-	<texture name="Map10"   file="texture/Map10_migitenohira.png" type="2d" />
-	<texture name="Map12"   file="texture/Map12_migiisshisaki.png" type="2d" />
-	<texture name="Map14"   file="texture/Map14_miginishisaki.png" type="2d" />
-	<texture name="Map28"   file="texture/Map28_migimata.png" type="2d" />
-	<texture name="Map29"   file="texture/Map29_migidaitai.png" type="2d" />
-	<texture name="Map30"   file="texture/Map30_migisune.png" type="2d" />
-	<texture name="Map31"   file="texture/Map31_migiashikubi.png" type="2d" />
-	<texture name="Map32"   file="texture/Map32_migiashi.png" type="2d" />
+        <!-- texture png -->
+        <texture name="Map01"   file="texture/Map01_siri.png" type="2d" />
+        <texture name="Map03_F" file="texture/Map03_douF.png" type="2d" />
+        <texture name="Map03_R" file="texture/Map03_douR.png" type="2d" />
+        <texture name="Map05_F" file="texture/Map05_atamaF.png" type="2d" />
+        <texture name="Map05_R" file="texture/Map05_atamaR.png" type="2d" />
+        <texture name="Map06"   file="texture/Map06_migikata.png" type="2d" />
+        <texture name="Map07"   file="texture/Map07_migijowan.png" type="2d" />
+        <texture name="Map08"   file="texture/Map08_migikawan.png" type="2d" />
+        <texture name="Map09"   file="texture/Map09_migitekubi.png" type="2d" />
+        <texture name="Map10"   file="texture/Map10_migitenohira.png" type="2d" />
+        <texture name="Map12"   file="texture/Map12_migiisshisaki.png" type="2d" />
+        <texture name="Map14"   file="texture/Map14_miginishisaki.png" type="2d" />
+        <texture name="Map28"   file="texture/Map28_migimata.png" type="2d" />
+        <texture name="Map29"   file="texture/Map29_migidaitai.png" type="2d" />
+        <texture name="Map30"   file="texture/Map30_migisune.png" type="2d" />
+        <texture name="Map31"   file="texture/Map31_migiashikubi.png" type="2d" />
+        <texture name="Map32"   file="texture/Map32_migiashi.png" type="2d" />
 
-	<!-- materials -->
-	<material name="PELVIS" texture="Map01" shininess="1" specular="1" />
-	<material name="WAIST_R_F" texture="Map03_F" shininess="1" specular="1" />
-	<material name="WAIST_R_R" texture="Map03_R" shininess="1" specular="1" />
-	<material name="NECK_P_F" texture="Map05_F" shininess="1" specular="1" />
-	<material name="NECK_P_R" texture="Map05_R" shininess="1" specular="1" />
-	<material name="SHOULDER_P" texture="Map06" shininess="1" specular="1" />
-	<material name="SHOULDER_Y" texture="Map07" shininess="1" specular="1" />
-	<material name="ELBOW_P" texture="Map08" shininess="1" specular="1" />
-	<material name="ELBOW_Y" texture="Map09" shininess="1" specular="1" />
-	<material name="WRIST_Y" texture="Map10" shininess="1" specular="1" />
-	<material name="THUMB" texture="Map12" shininess="1" specular="1" />
-	<material name="LITTLE" texture="Map14" shininess="1" specular="1" />
-	<material name="INDEX" texture="Map14" shininess="1" specular="1" />
+        <!-- materials -->
+        <material name="PELVIS" texture="Map01" shininess="1" specular="1" />
+        <material name="WAIST_R_F" texture="Map03_F" shininess="1" specular="1" />
+        <material name="WAIST_R_R" texture="Map03_R" shininess="1" specular="1" />
+        <material name="NECK_P_F" texture="Map05_F" shininess="1" specular="1" />
+        <material name="NECK_P_R" texture="Map05_R" shininess="1" specular="1" />
+        <material name="SHOULDER_P" texture="Map06" shininess="1" specular="1" />
+        <material name="SHOULDER_Y" texture="Map07" shininess="1" specular="1" />
+        <material name="ELBOW_P" texture="Map08" shininess="1" specular="1" />
+        <material name="ELBOW_Y" texture="Map09" shininess="1" specular="1" />
+        <material name="WRIST_Y" texture="Map10" shininess="1" specular="1" />
+        <material name="THUMB" texture="Map12" shininess="1" specular="1" />
+        <material name="LITTLE" texture="Map14" shininess="1" specular="1" />
+        <material name="INDEX" texture="Map14" shininess="1" specular="1" />
         <material name="HIP_R" texture="Map28" shininess="1" specular="1" />
         <material name="HIP_Y" texture="Map29" shininess="1" specular="1" />
-	<material name="KNEE1" texture="Map30" shininess="1" specular="1" />
-	<material name="KNEE2" texture="Map31" shininess="1" specular="1" />
+        <material name="KNEE1" texture="Map30" shininess="1" specular="1" />
+        <material name="KNEE2" texture="Map31" shininess="1" specular="1" />
         <material name="ANKLE" texture="Map32" shininess="1" specular="1" />
     </asset>
     <contact>
