@@ -2,7 +2,7 @@
 <mujoco model="jvrc1">
     <compiler angle="radian" meshdir="../meshes" texturedir="../meshes" />
     <size njmax="500" nconmax="100" />
-    <option timestep="0.001" iterations="50" tolerance="1e-10" solver="PGS" jacobian="dense" cone="pyramidal" />
+    <option timestep="0.001" iterations="50" tolerance="1e-10" solver="Newton" jacobian="dense" cone="pyramidal" />
     <default>
         <joint limited="true" damping="0.2" pos="0 0 0" />
         <motor ctrllimited="false" forcelimited="false" />
