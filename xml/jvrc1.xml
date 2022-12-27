@@ -19,13 +19,6 @@
     </default>
   </default>
 
-  <visual>
-    <map force="0.1" zfar="30" />
-    <rgba haze="0.15 0.25 0.35 1" />
-    <quality shadowsize="2048" />
-    <global offwidth="800" offheight="800" />
-  </visual>
-
   <asset>
     <!-- collision meshes -->
     <mesh name="PELVIS_S_mesh" file="convex/PELVIS_S.stl" />
