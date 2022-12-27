@@ -482,9 +482,6 @@
         <motor name="L_LLITTLE_motor" joint="L_LLITTLE" />
     </actuator>
     <sensor>
-        <subtreecom body="PELVIS_S" name="subtreecom" />
-        <subtreelinvel body="PELVIS_S" name="subtreelinvel" />
-        <subtreeangmom body="PELVIS_S" name="subtreeangmom" />
         <!-- F/T sensors -->
         <!-- right foot -->
         <force name="RightFootForceSensor_fsensor" site="rf_force" />
