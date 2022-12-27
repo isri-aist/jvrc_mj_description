@@ -4,13 +4,14 @@
     <size njmax="500" nconmax="100" />
     <option timestep="0.001" iterations="50" tolerance="1e-10" solver="Newton" jacobian="dense" cone="pyramidal" />
     <default>
+        <geom condim="1" type="mesh" />
         <joint limited="true" damping="0.2" pos="0 0 0" />
         <motor ctrllimited="false" forcelimited="false" />
         <default class="collision">
-            <geom condim="3" type="mesh" group="0" />
+            <geom condim="3" group="0" />
         </default>
         <default class="visual">
-            <geom condim="3" type="mesh" group="1" conaffinity="0" contype="0" />
+            <geom group="1" conaffinity="0" contype="0" />
         </default>
     </default>
     <visual>
