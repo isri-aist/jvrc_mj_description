@@ -313,31 +313,31 @@
                             <geom class="visual" quat="0.707105 0 0 0.707108" mesh="R_UTHUMB_vis" />
                             <body name="R_LTHUMB_S" pos="0 0 -0.045">
                               <inertial pos="0 0 -0.015" mass="0.2" diaginertia="6.16667e-05 6.16667e-05 2.66667e-05" />
-                              <joint name="R_LTHUMB" axis="1 0 0" range="-1.5708 0" armature="0.0320" />
+                              <joint name="R_LTHUMB" axis="1 0 0" range="-2.3562 2.3562" armature="0.0320" />
                               <geom class="collision" quat="0.707105 0 0 0.707108" mesh="R_LTHUMB_col" />
                               <geom class="visual" quat="0.707105 0 0 0.707108" mesh="R_LTHUMB_vis" material="THUMB" />
                             </body>
                           </body>
                           <body name="R_UINDEX_S" pos="0.025 -0.016 -0.084">
                             <inertial pos="0 0 -0.015" mass="0.2" diaginertia="6.16667e-05 6.16667e-05 2.66667e-05" />
-                            <joint name="R_UINDEX" axis="1 0 0" range="0 1.5708" armature="0.0073" />
+                            <joint name="R_UINDEX" axis="1 0 0" range="-0.7854 0.7854" armature="0.0073" />
                             <geom class="collision" quat="0.707105 0 0 0.707108" mesh="R_UINDEX_col" />
                             <geom class="visual" quat="0.707105 0 0 0.707108" mesh="R_UINDEX_vis" />
                             <body name="R_LINDEX_S" pos="0 0 -0.045">
                               <inertial pos="0 0 -0.015" mass="0.2" diaginertia="6.16667e-05 6.16667e-05 2.66667e-05" />
-                              <joint name="R_LINDEX" axis="1 0 0" range="0 1.5708" armature="0.0039" />
+                              <joint name="R_LINDEX" axis="1 0 0" range="-2.3562 2.3562" armature="0.0039" />
                               <geom class="collision" quat="0.707105 0 0 0.707108" mesh="R_LINDEX_col" />
                               <geom class="visual" quat="0.707105 0 0 0.707108" mesh="R_LINDEX_vis" material="INDEX" />
                             </body>
                           </body>
                           <body name="R_ULITTLE_S" pos="-0.025 -0.016 -0.084">
                             <inertial pos="0 0 -0.015" mass="0.2" diaginertia="6.16667e-05 6.16667e-05 2.66667e-05" />
-                            <joint name="R_ULITTLE" axis="1 0 0" range="0 1.5708" armature="0.0073" />
+                            <joint name="R_ULITTLE" axis="1 0 0" range="-0.7854 0.7854" armature="0.0073" />
                             <geom class="collision" quat="0.707105 0 0 0.707108" mesh="R_ULITTLE_col" />
                             <geom class="visual" quat="0.707105 0 0 0.707108" mesh="R_ULITTLE_vis" />
                             <body name="R_LLITTLE_S" pos="0 0 -0.045">
                               <inertial pos="0 0 -0.015" mass="0.2" diaginertia="6.16667e-05 6.16667e-05 2.66667e-05" />
-                              <joint name="R_LLITTLE" axis="1 0 0" range="0 1.5708" armature="0.0039" />
+                              <joint name="R_LLITTLE" axis="1 0 0" range="-2.3562 2.3562" armature="0.0039" />
                               <geom class="collision" quat="0.707105 0 0 0.707108" mesh="R_LLITTLE_col" />
                               <geom class="visual" quat="0.707105 0 0 0.707108" mesh="R_LLITTLE_vis" material="LITTLE" />
                             </body>
@@ -391,31 +391,31 @@
                             <geom class="visual" quat="0.707105 0 0 0.707108" mesh="L_UTHUMB_vis" />
                             <body name="L_LTHUMB_S" pos="0 0 -0.045">
                               <inertial pos="0 0 -0.015" mass="0.2" diaginertia="6.16667e-05 6.16667e-05 2.66667e-05" />
-                              <joint name="L_LTHUMB" axis="1 0 0" range="0 1.5708" armature="0.0320" />
+                              <joint name="L_LTHUMB" axis="1 0 0" range="-2.3562 2.3562" armature="0.0320" />
                               <geom class="collision" quat="0.707105 0 0 0.707108" mesh="L_LTHUMB_col" />
                               <geom class="visual" quat="0.707105 0 0 0.707108" mesh="L_LTHUMB_vis" material="THUMB" />
                             </body>
                           </body>
                           <body name="L_UINDEX_S" pos="0.025 0.016 -0.084">
                             <inertial pos="0 0 -0.015" mass="0.2" diaginertia="6.16667e-05 6.16667e-05 2.66667e-05" />
-                            <joint name="L_UINDEX" axis="1 0 0" range="-1.5708 0" armature="0.0073" />
+                            <joint name="L_UINDEX" axis="1 0 0" range="-0.7854 0.7854" armature="0.0073" />
                             <geom class="collision" quat="0.707105 0 0 0.707108" mesh="L_UINDEX_col" />
                             <geom class="visual" quat="0.707105 0 0 0.707108" mesh="L_UINDEX_vis" />
                             <body name="L_LINDEX_S" pos="0 0 -0.045">
                               <inertial pos="0 0 -0.015" mass="0.2" diaginertia="6.16667e-05 6.16667e-05 2.66667e-05" />
-                              <joint name="L_LINDEX" axis="1 0 0" range="-1.5708 0" armature="0.0039" />
+                              <joint name="L_LINDEX" axis="1 0 0" range="-2.3562 2.3562" armature="0.0039" />
                               <geom class="collision" quat="0.707105 0 0 0.707108" mesh="L_LINDEX_col" />
                               <geom class="visual" quat="0.707105 0 0 0.707108" mesh="L_LINDEX_vis" material="INDEX" />
                             </body>
                           </body>
                           <body name="L_ULITTLE_S" pos="-0.025 0.016 -0.084">
                             <inertial pos="0 0 -0.015" mass="0.2" diaginertia="6.16667e-05 6.16667e-05 2.66667e-05" />
-                            <joint name="L_ULITTLE" axis="1 0 0" range="-1.5708 0" armature="0.0073" />
+                            <joint name="L_ULITTLE" axis="1 0 0" range="-0.7854 0.7854" armature="0.0073" />
                             <geom class="collision" quat="0.707105 0 0 0.707108" mesh="L_ULITTLE_col" />
                             <geom class="visual" quat="0.707105 0 0 0.707108" mesh="L_ULITTLE_vis" />
                             <body name="L_LLITTLE_S" pos="0 0 -0.045">
                               <inertial pos="0 0 -0.015" mass="0.2" diaginertia="6.16667e-05 6.16667e-05 2.66667e-05" />
-                              <joint name="L_LLITTLE" axis="1 0 0" range="-1.5708 0" armature="0.0039" />
+                              <joint name="L_LLITTLE" axis="1 0 0" range="-2.3562 2.3562" armature="0.0039" />
                               <geom class="collision" quat="0.707105 0 0 0.707108" mesh="L_LLITTLE_col" />
                               <geom class="visual" quat="0.707105 0 0 0.707108" mesh="L_LLITTLE_vis" material="LITTLE" />
                             </body>
