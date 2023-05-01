@@ -153,6 +153,49 @@
     <exclude body1="R_ELBOW_Y_S" body2="R_WRIST_Y_S" />
     <exclude body1="L_SHOULDER_P_S" body2="L_SHOULDER_Y_S" />
     <exclude body1="L_ELBOW_Y_S" body2="L_WRIST_Y_S" />
+    <!-- Gripper exclusion -->
+    <exclude body1="L_UTHUMB_S" body2="L_WRIST_Y_S" />
+    <exclude body1="L_UTHUMB_S" body2="L_LTHUMB_S" />
+    <exclude body1="L_UTHUMB_S" body2="L_UINDEX_S" />
+    <exclude body1="L_UTHUMB_S" body2="L_LINDEX_S" />
+    <exclude body1="L_UTHUMB_S" body2="L_ULITTLE_S" />
+    <exclude body1="L_UTHUMB_S" body2="L_LLITTLE_S" />
+    <exclude body1="L_LTHUMB_S" body2="L_WRIST_Y_S" />
+    <exclude body1="L_LTHUMB_S" body2="L_UINDEX_S" />
+    <exclude body1="L_LTHUMB_S" body2="L_LINDEX_S" />
+    <exclude body1="L_LTHUMB_S" body2="L_ULITTLE_S" />
+    <exclude body1="L_LTHUMB_S" body2="L_LLITTLE_S" />
+    <exclude body1="L_UINDEX_S" body2="L_WRIST_Y_S" />
+    <exclude body1="L_UINDEX_S" body2="L_LINDEX_S" />
+    <exclude body1="L_UINDEX_S" body2="L_ULITTLE_S" />
+    <exclude body1="L_UINDEX_S" body2="L_LLITTLE_S" />
+    <exclude body1="L_LINDEX_S" body2="L_WRIST_Y_S" />
+    <exclude body1="L_LINDEX_S" body2="L_ULITTLE_S" />
+    <exclude body1="L_LINDEX_S" body2="L_LLITTLE_S" />
+    <exclude body1="L_ULITTLE_S" body2="L_WRIST_Y_S" />
+    <exclude body1="L_ULITTLE_S" body2="L_LLITTLE_S" />
+    <exclude body1="L_LLITTLE_S" body2="L_WRIST_Y_S" />
+    <exclude body1="R_UTHUMB_S" body2="R_WRIST_Y_S" />
+    <exclude body1="R_UTHUMB_S" body2="R_LTHUMB_S" />
+    <exclude body1="R_UTHUMB_S" body2="R_UINDEX_S" />
+    <exclude body1="R_UTHUMB_S" body2="R_LINDEX_S" />
+    <exclude body1="R_UTHUMB_S" body2="R_ULITTLE_S" />
+    <exclude body1="R_UTHUMB_S" body2="R_LLITTLE_S" />
+    <exclude body1="R_LTHUMB_S" body2="R_WRIST_Y_S" />
+    <exclude body1="R_LTHUMB_S" body2="R_UINDEX_S" />
+    <exclude body1="R_LTHUMB_S" body2="R_LINDEX_S" />
+    <exclude body1="R_LTHUMB_S" body2="R_ULITTLE_S" />
+    <exclude body1="R_LTHUMB_S" body2="R_LLITTLE_S" />
+    <exclude body1="R_UINDEX_S" body2="R_WRIST_Y_S" />
+    <exclude body1="R_UINDEX_S" body2="R_LINDEX_S" />
+    <exclude body1="R_UINDEX_S" body2="R_ULITTLE_S" />
+    <exclude body1="R_UINDEX_S" body2="R_LLITTLE_S" />
+    <exclude body1="R_LINDEX_S" body2="R_WRIST_Y_S" />
+    <exclude body1="R_LINDEX_S" body2="R_ULITTLE_S" />
+    <exclude body1="R_LINDEX_S" body2="R_LLITTLE_S" />
+    <exclude body1="R_ULITTLE_S" body2="R_WRIST_Y_S" />
+    <exclude body1="R_ULITTLE_S" body2="R_LLITTLE_S" />
+    <exclude body1="R_LLITTLE_S" body2="R_WRIST_Y_S" />
   </contact>
 
   <worldbody>
