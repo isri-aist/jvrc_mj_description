@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.22)
 
 project(jvrc1_mj_description VERSION 1.0.0)
 option(HONOR_INSTALL_PREFIX "Whether to install in CMAKE_INSTALL_PREFIX (for nix)" OFF)
